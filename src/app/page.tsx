@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home"
+  title: "Home",
 };
 
 export default function Home() {
@@ -9,14 +9,22 @@ export default function Home() {
         Welcome to my Home Page!
       </h1>
       <p className="text-lg text-center mb-8">
-        This is the starting point of my website. I have set up a header, navigation bar, and footer, which lay the foundation for my project. Soon, you'll see more content and pages added!
+        This is the starting point of my website. I have set up a header, navigation bar, and footer, which lay the foundation for my project. Soon, you&apos;ll see more content and pages added!
       </p>
       <div className="flex space-x-4">
-        <a href="/login" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Login</a>
-        <a href="/signup" className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Sign Up</a>
+        <a
+          href="/login"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Login
+        </a>
+        <a
+          href="/signup"
+          className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+        >
+          Sign Up
+        </a>
       </div>
     </div>
-  )
+  );
 }
-
-
